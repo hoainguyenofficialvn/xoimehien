@@ -1,5 +1,12 @@
 import { GoogleGenAI, GenerateContentResponse } from "@google/genai";
 
+// Fix for TypeScript error: "Cannot find name 'process'" in browser environment
+declare const process: {
+  env: {
+    API_KEY?: string;
+  };
+};
+
 const SYSTEM_INSTRUCTION = `
 Bạn là một trợ lý ảo nhiệt tình và thân thiện của "Xôi Lá Chuối Mẹ Hiền". 
 Nhiệm vụ của bạn là:
