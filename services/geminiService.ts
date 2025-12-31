@@ -31,7 +31,7 @@ Chỉ trả lời các câu hỏi liên quan đến xôi và ẩm thực Việt 
 
 export const sendMessageToGemini = async (message: string): Promise<string> => {
   try {
-    const apiKey = process.env.API_KEY;
+    const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
     if (!apiKey) {
       return "Xin lỗi, hệ thống đang bảo trì (thiếu API Key). Vui lòng quay lại sau.";
     }

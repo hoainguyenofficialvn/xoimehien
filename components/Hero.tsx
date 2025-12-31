@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowDown, Star, MessageCircleHeart } from 'lucide-react';
+import { ArrowDown, Star } from 'lucide-react';
 import { APP_IMAGES } from '../constants';
 
 const QUICK_FEEDBACKS = [
