@@ -50,15 +50,13 @@ export const Header: React.FC = () => {
           >
              <img 
                src={APP_IMAGES.LOGO}
-               alt="Logo Xôi Lá Chuối Mẹ Hiền - Tiệm xôi mặn truyền thống Bình Thạnh từ 2012" 
-               loading="eager"
-               decoding="async"
+               alt="Logo Xôi Mẹ Hiền" 
                className="h-20 md:h-24 w-auto object-contain rounded-full border-4 border-white shadow-md group-hover:scale-105 transition-transform duration-300"
              />
           </a>
 
           {/* Desktop Nav */}
-          <nav className="hidden md:flex items-center gap-8" aria-label="Menu chính">
+          <nav className="hidden md:flex items-center gap-8">
             {navLinks.map((link) => (
               <a 
                 key={link.name} 

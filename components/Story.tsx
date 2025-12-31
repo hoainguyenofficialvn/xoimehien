@@ -3,20 +3,20 @@ import { APP_IMAGES } from '../constants';
 
 export const Story: React.FC = () => {
   return (
-    <section id="story" className="py-24 bg-white relative overflow-hidden scroll-mt-32" aria-labelledby="story-heading">
+    <section id="story" className="py-24 bg-white relative overflow-hidden scroll-mt-32">
       <div className="container mx-auto px-4 max-w-6xl">
         <div className="flex flex-col md:flex-row items-center gap-16">
            <div className="md:w-1/2 relative">
               <div className="relative z-10 grid grid-cols-2 gap-4">
-                 <img src={APP_IMAGES.STORY_1} loading="lazy" decoding="async" className="rounded-3xl shadow-lg mt-8" alt="Xôi nếp cái hoa vàng dẻo thơm gói lá chuối tươi - Đặc sản Xôi Mẹ Hiền" />
-                 <img src={APP_IMAGES.STORY_2} loading="lazy" decoding="async" className="rounded-3xl shadow-lg" alt="Nguyên liệu tươi sạch mỗi ngày - Nếp, thịt, trứng cút, chả lụa cho xôi Mẹ Hiền" />
+                 <img src={APP_IMAGES.STORY_1} className="rounded-3xl shadow-lg mt-8" alt="Xôi ngon" />
+                 <img src={APP_IMAGES.STORY_2} className="rounded-3xl shadow-lg" alt="Nguyên liệu" />
               </div>
               <div className="absolute -z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-brand-light/50 rounded-full blur-3xl"></div>
            </div>
 
            <div className="md:w-1/2">
              <span className="text-brand-green font-bold tracking-wider uppercase text-sm mb-2 block">Câu Chuyện Bếp</span>
-             <h2 id="story-heading" className="font-display font-black text-4xl md:text-5xl text-brand-dark mb-6">
+             <h2 className="font-display font-black text-4xl md:text-5xl text-brand-dark mb-6">
                Giữ Gìn Hương Vị <br/> Xôi Truyền Thống Người Việt
              </h2>
              <p className="text-gray-600 leading-relaxed mb-6 text-lg">

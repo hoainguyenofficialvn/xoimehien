@@ -10,6 +10,17 @@ const QUICK_FEEDBACKS = [
   { text: "Ăn sáng mỗi ngày không ngán", name: "Anh Minh (IT)" }
 ];
 
+const MarqueeItem: React.FC<{ feedback: typeof QUICK_FEEDBACKS[0] }> = ({ feedback }) => (
+  <div className="flex items-center gap-3 bg-white/60 backdrop-blur-sm px-4 py-2 rounded-full border border-brand-green/10 shadow-sm mx-4">
+    <Star size={14} className="text-brand-accent fill-brand-accent flex-shrink-0"/>
+    <div className="flex flex-col md:flex-row md:items-center gap-1">
+      <span className="text-brand-dark italic text-sm">"{feedback.text}"</span>
+      <span className="hidden md:inline text-brand-green/40">-</span>
+      <span className="text-brand-green font-bold text-xs uppercase tracking-wide whitespace-nowrap">{feedback.name}</span>
+    </div>
+  </div>
+);
+
 export const Hero: React.FC = () => {
   const handleScrollToMenu = (e: React.MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault();
@@ -18,17 +29,6 @@ export const Hero: React.FC = () => {
       element.scrollIntoView({ behavior: 'smooth' });
     }
   };
-
-  const MarqueeItem = ({ feedback }: { feedback: typeof QUICK_FEEDBACKS[0] }) => (
-    <div className="flex items-center gap-3 bg-white/60 backdrop-blur-sm px-4 py-2 rounded-full border border-brand-green/10 shadow-sm mx-4">
-      <Star size={14} className="text-brand-accent fill-brand-accent flex-shrink-0"/>
-      <div className="flex flex-col md:flex-row md:items-center gap-1">
-        <span className="text-brand-dark italic text-sm">"{feedback.text}"</span>
-        <span className="hidden md:inline text-brand-green/40">-</span>
-        <span className="text-brand-green font-bold text-xs uppercase tracking-wide whitespace-nowrap">{feedback.name}</span>
-      </div>
-    </div>
-  );
 
   return (
     <section id="home" className="relative min-h-screen pt-24 pb-12 flex items-center justify-center overflow-hidden">
@@ -107,9 +107,7 @@ export const Hero: React.FC = () => {
             <div className="relative z-10 transform hover:scale-105 transition-transform duration-500">
               <img 
                 src={APP_IMAGES.HERO_MAIN} 
-                alt="Xôi Mặn Đặc Biệt - Xôi lá chuối gói nóng hổi với đầy đủ topping gà xé, xá xíu, heo cháy tỏi tại Mẹ Hiền Bình Thạnh" 
-                loading="eager"
-                decoding="async"
+                alt="Xôi Mặn Mẹ Hiền" 
                 className="w-full h-auto rounded-[2.5rem] shadow-2xl rotate-2 hover:rotate-0 transition-all duration-500 object-cover aspect-[4/3] bg-white"
               />
               {/* Float Badge */}

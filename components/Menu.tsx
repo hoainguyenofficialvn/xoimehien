@@ -4,25 +4,24 @@ import { Phone, ArrowRight } from 'lucide-react';
 
 export const Menu: React.FC = () => {
   return (
-    <section id="menu" className="py-24 bg-brand-light/20 relative scroll-mt-32" aria-labelledby="menu-heading">
+    <section id="menu" className="py-24 bg-brand-light/20 relative scroll-mt-32">
       <div className="container mx-auto px-4 max-w-6xl">
-        <header className="text-center mb-16">
-          <h2 id="menu-heading" className="font-display font-black text-4xl md:text-5xl text-brand-dark mb-4">Thực Đơn Mẹ Hiền</h2>
+        <div className="text-center mb-16">
+          <h2 className="font-display font-black text-4xl md:text-5xl text-brand-dark mb-4">Thực Đơn Mẹ Hiền</h2>
           <p className="text-gray-500 max-w-xl mx-auto">
             Hương vị truyền thống, nguyên liệu tươi sạch. Mời bạn chọn món!
           </p>
-        </header>
+        </div>
 
-        <div className="grid md:grid-cols-2 gap-8" role="list" aria-label="Danh sách các món xôi">
+        <div className="grid md:grid-cols-2 gap-8">
           {MENU_ITEMS.map((item) => (
-            <article key={item.id} className="bg-white p-6 rounded-[2rem] shadow-sm hover:shadow-lg transition-all duration-300 flex flex-col sm:flex-row gap-6 border border-transparent hover:border-brand-green/20 group" role="listitem">
+            <div key={item.id} className="bg-white p-6 rounded-[2rem] shadow-sm hover:shadow-lg transition-all duration-300 flex flex-col sm:flex-row gap-6 border border-transparent hover:border-brand-green/20 group">
               {/* Image Container */}
               <div className="w-full sm:w-32 h-32 flex-shrink-0 relative overflow-hidden rounded-2xl">
                 <img 
                   src={item.image} 
-                  alt={`${item.name} - Xôi mặn gói lá chuối giá ${item.price.toLocaleString('vi-VN')}đ tại Mẹ Hiền Bình Thạnh`} 
+                  alt={item.name} 
                   loading="lazy"
-                  decoding="async"
                   className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
                 />
                 {item.badge && (
@@ -42,7 +41,7 @@ export const Menu: React.FC = () => {
                   {item.description}
                 </p>
               </div>
-            </article>
+            </div>
           ))}
         </div>
 
@@ -74,9 +73,8 @@ export const Menu: React.FC = () => {
                 <div className="absolute inset-0 bg-brand-dark/10 z-10"></div>
                 <img 
                   src={APP_IMAGES.BULK_ORDER_BIG}
-                  alt="Đặt xôi số lượng lớn cho tiệc, sự kiện, sinh nhật - Xôi Mẹ Hiền giao hàng tận nơi Bình Thạnh" 
+                  alt="Tiệc xôi" 
                   loading="lazy"
-                  decoding="async"
                   className="absolute inset-0 w-full h-full object-cover"
                 />
               </div>
