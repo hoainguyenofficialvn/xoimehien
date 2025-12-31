@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  
+  <!-- Trang chủ -->
+  <url>
+    <loc>https://xoilachuoimehien.com/</loc>
+    <lastmod>2024-12-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://i.postimg.cc/x8QDDG0j/XO_I_MA_N_ĐA_C_BIE_T.jpg</image:loc>
+      <image:title>Xôi Mặn Đặc Biệt - Xôi Lá Chuối Mẹ Hiền</image:title>
+      <image:caption>Xôi mặn đặc biệt full topping gói lá chuối thơm ngon</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://i.postimg.cc/CM2Zw5ZH/z7239971048751-c7919b3c8d671ff678d403fad6e91eaf.jpg</image:loc>
+      <image:title>Logo Xôi Lá Chuối Mẹ Hiền</image:title>
+    </image:image>
+  </url>
+  
+  <!-- Menu -->
+  <url>
+    <loc>https://xoilachuoimehien.com/#menu</loc>
+    <lastmod>2024-12-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- Câu chuyện -->
+  <url>
+    <loc>https://xoilachuoimehien.com/#story</loc>
+    <lastmod>2024-12-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Liên hệ -->
+  <url>
+    <loc>https://xoilachuoimehien.com/#contact</loc>
+    <lastmod>2024-12-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>
