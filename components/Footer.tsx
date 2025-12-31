@@ -16,7 +16,7 @@ const TikTokIcon = ({ size = 20 }: { size?: number }) => (
 
 export const Footer: React.FC = () => {
   return (
-    <footer id="contact" className="bg-brand-dark text-white pt-20 pb-10 scroll-mt-32">
+    <footer id="contact" className="bg-brand-dark text-white pt-20 pb-10 scroll-mt-32" role="contentinfo">
       <div className="container mx-auto px-4 max-w-6xl">
         <div className="grid md:grid-cols-3 gap-12 mb-16">
           
@@ -78,7 +78,9 @@ export const Footer: React.FC = () => {
                 <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors duration-300"></div>
                 <img 
                     src={APP_IMAGES.BULK_ORDER_SMALL}
-                    alt="Xôi gói lá chuối" 
+                    alt="Xôi gói lá chuối xanh thân thiện môi trường - Đặt xôi tiệc liên hệ Mẹ Hiền" 
+                    loading="lazy"
+                    decoding="async"
                     className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
                 />
             </div>

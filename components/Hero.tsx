@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowDown, Star, MessageCircleHeart } from 'lucide-react';
+import { ArrowDown, Star } from 'lucide-react';
 import { APP_IMAGES } from '../constants';
 
 const QUICK_FEEDBACKS = [
@@ -107,7 +107,9 @@ export const Hero: React.FC = () => {
             <div className="relative z-10 transform hover:scale-105 transition-transform duration-500">
               <img 
                 src={APP_IMAGES.HERO_MAIN} 
-                alt="Xôi Mặn Mẹ Hiền" 
+                alt="Xôi Mặn Đặc Biệt - Xôi lá chuối gói nóng hổi với đầy đủ topping gà xé, xá xíu, heo cháy tỏi tại Mẹ Hiền Bình Thạnh" 
+                loading="eager"
+                decoding="async"
                 className="w-full h-auto rounded-[2.5rem] shadow-2xl rotate-2 hover:rotate-0 transition-all duration-500 object-cover aspect-[4/3] bg-white"
               />
               {/* Float Badge */}
