@@ -30,6 +30,7 @@ export const Header: React.FC = () => {
   const navLinks = [
     { name: 'Menu', href: '#menu' },
     { name: 'Câu Chuyện', href: '#story' },
+    { name: 'Người Truyền Nghề', href: '#founder' },
     { name: 'Liên Hệ', href: '#contact' },
   ];
 
@@ -51,7 +52,7 @@ export const Header: React.FC = () => {
              <img 
                src={APP_IMAGES.LOGO}
                alt="Logo Xôi Mẹ Hiền" 
-               className="h-20 md:h-24 w-auto object-contain rounded-full border-4 border-white shadow-md group-hover:scale-105 transition-transform duration-300"
+               className="h-16 md:h-24 w-auto object-contain rounded-full border-4 border-white shadow-md group-hover:scale-105 transition-transform duration-300"
              />
           </a>
 
@@ -75,7 +76,7 @@ export const Header: React.FC = () => {
 
           {/* Mobile Menu Button */}
           <button 
-            className="md:hidden text-brand-green bg-white/50 p-2 rounded-full"
+            className="md:hidden text-brand-green bg-white p-2 rounded-full shadow-sm hover:bg-gray-50 transition-colors"
             onClick={() => setIsMobileMenuOpen(true)}
           >
             <MenuIcon size={24} />
