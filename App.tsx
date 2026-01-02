@@ -6,7 +6,6 @@ import { Founder } from './components/Founder';
 import { Menu } from './components/Menu';
 import { Reviews } from './components/Reviews';
 import { Quality } from './components/Quality';
-import { Gallery } from './components/Gallery';
 import { Footer } from './components/Footer';
 import { ZaloWidget } from './components/ZaloWidget';
 import { AiAssistant } from './components/AiAssistant';
@@ -47,7 +46,6 @@ function App() {
         <Menu />
         <Quality />
         <Founder />
-        <Gallery />
         <Reviews />
       </main>
       <Footer />

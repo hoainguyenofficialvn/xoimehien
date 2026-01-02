@@ -10,7 +10,6 @@ export const Menu: React.FC = () => {
 
       <div className="container mx-auto px-4 max-w-6xl relative z-10">
         <div className="text-center mb-16">
-          <span className="text-brand-green font-bold tracking-widest uppercase text-xs mb-3 block">Hương vị 2025</span>
           <h2 className="font-display font-black text-4xl md:text-6xl text-brand-dark mb-6">Thực Đơn Mẹ Hiền</h2>
           <div className="w-24 h-1 bg-brand-accent mx-auto rounded-full mb-6"></div>
           <p className="text-gray-600 max-w-2xl mx-auto text-lg">
