@@ -17,9 +17,10 @@ export const APP_IMAGES = {
   // Ảnh lớn ở trang chủ (Banner chính)
   HERO_MAIN: "https://i.postimg.cc/x8QDDG0j/XO_I_MA_N_ĐA_C_BIE_T.jpg",
   
-  // Ảnh phần Câu Chuyện Bếp (2 ảnh ghép)
+  // Ảnh phần Câu Chuyện Bếp (3 ảnh ghép)
   STORY_1: "https://i.postimg.cc/4x07x3F3/449077038-446620724969875-1545784783804386017-n.jpg",
   STORY_2: "https://i.postimg.cc/qRFZJJJx/Chat-GPT-Image-Dec-31-2025-08-21-56-AM.png",
+  STORY_INGREDIENTS: "https://i.postimg.cc/9FfvYX1s/485118321_637843579180921_9066990913622514086_n.jpg", // Ảnh nguyên liệu/mâm xôi mới
   
   // Ảnh phần Đặt số lượng lớn (trong Menu)
   BULK_ORDER_BIG: "https://i.postimg.cc/9FfvYX1s/485118321_637843579180921_9066990913622514086_n.jpg",

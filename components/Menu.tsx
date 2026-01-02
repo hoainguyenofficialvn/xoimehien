@@ -13,7 +13,7 @@ export const Menu: React.FC = () => {
           <h2 className="font-display font-black text-4xl md:text-6xl text-brand-dark mb-6">Thực Đơn Mẹ Hiền</h2>
           <div className="w-24 h-1 bg-brand-accent mx-auto rounded-full mb-6"></div>
           <p className="text-gray-600 max-w-2xl mx-auto text-lg">
-            Được nấu từ nếp cái hoa vàng loại 1, gói trong lá chuối tươi giữ nhiệt và hương thơm tự nhiên. 
+            Được nấu từ nếp cái nếp dẻo thơm, gói trong lá chuối tươi giữ nhiệt và hương thơm tự nhiên. 
             <br className="hidden md:block" /> Mời bạn chọn món ngon cho bữa sáng nay!
           </p>
         </div>
@@ -77,17 +77,17 @@ export const Menu: React.FC = () => {
             <div className="relative z-10 flex flex-col md:flex-row items-center gap-10">
               <div className="md:w-1/2">
                 <div className="inline-block px-4 py-1.5 bg-white/10 backdrop-blur-md rounded-full text-brand-accent font-bold text-xs mb-6 border border-white/10">
-                  DỊCH VỤ ĐẶT TIỆC & SỰ KIỆN
+                  DỊCH VỤ ĐẶC XÔI CÔNG TY & SỰ KIỆN 
                 </div>
                 <h3 className="font-display font-black text-3xl md:text-5xl mb-6 leading-tight">
-                  Cần đặt xôi số lượng lớn <br/> cho sự kiện?
+                  Cần đặt xôi số lượng lớn cho sự kiện,du lịch,công ty?
                 </h3>
                 <p className="text-gray-300 text-lg mb-8 leading-relaxed">
-                  Chúng tôi chuyên cung cấp xôi hộp, xôi mâm cho các dịp khai trương, sinh nhật, từ thiện. Đóng gói chuyên nghiệp, giao hàng đúng giờ.
+                  Chúng tôi chuyên cung cấp xôi hộp, xôi gói lá chuối cho các dịp khai trương, sinh nhật,du lịch,từ thiện. Đóng gói chuyên nghiệp, giao hàng đúng giờ.
                 </p>
                 <a href="tel:0353857799" className="inline-flex items-center gap-3 bg-brand-accent text-brand-dark px-8 py-4 rounded-full font-bold text-lg hover:bg-white transition-all shadow-lg hover:shadow-brand-accent/50 transform hover:-translate-y-1">
                   <Phone size={20} />
-                  <span>Tư vấn đặt tiệc: 0353.857.799</span>
+                  <span>Tư vấn đặt hàng: 0353.857.799</span>
                 </a>
               </div>
               
