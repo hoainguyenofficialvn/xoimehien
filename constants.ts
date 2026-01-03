@@ -83,14 +83,6 @@ export const MENU_ITEMS: MenuItem[] = [
     description: 'Sự kết hợp hoàn hảo giữa xá xíu mềm và gà xé dai.',
     price: 25000,
     image: 'https://i.postimg.cc/HnmDD0px/XO_IGAXE.jpg',
-  },
-  {
-    id: '7',
-    name: 'Xôi Chà Bông Chả Lụa',
-    description: 'Món ăn sáng nhanh gọn, nhẹ nhàng nhưng vẫn đủ chất.',
-    price: 15000,
-    image: 'https://i.postimg.cc/zvNZZwJX/XO_I_CHA_BO_NG_CHA_LU_A.jpg',
-    badge: 'Tiết kiệm'
   }
 ];
 
