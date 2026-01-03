@@ -14,6 +14,18 @@ const TikTokIcon = ({ size = 20 }: { size?: number }) => (
   </svg>
 );
 
+const LinktreeIcon = ({ size = 20 }: { size?: number }) => (
+  <svg 
+    width={size} 
+    height={size} 
+    viewBox="0 0 24 24" 
+    fill="currentColor" 
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path d="M13.5 5.879l3.964-4.156 3.75 0-6.671 6.974 6.782 7.086h-3.857l-3.968-4.143v10.74h-3.232v-10.74l-3.968 4.143h-3.857l6.782-7.086-6.671-6.974 3.75 0 3.964 4.156v0z" />
+  </svg>
+);
+
 export const Footer: React.FC = () => {
   return (
     <footer id="contact" className="bg-brand-dark text-white pt-20 pb-10 scroll-mt-32">
@@ -30,10 +42,19 @@ export const Footer: React.FC = () => {
                 href="https://www.facebook.com/theritomki?locale=vi_VN" 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className="bg-white/10 hover:bg-brand-green p-3 rounded-full transition-colors"
+                className="bg-white/10 hover:bg-[#1877F2] p-3 rounded-full transition-colors"
                 aria-label="Facebook Fanpage"
               >
                 <Facebook size={20} />
+              </a>
+              <a 
+                href="https://linktr.ee/XoiLaChuoiMeHien" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="bg-white/10 hover:bg-[#43E660] hover:text-black p-3 rounded-full transition-colors"
+                aria-label="Linktree Bio"
+              >
+                <LinktreeIcon size={20} />
               </a>
               <a 
                 href="https://www.tiktok.com/@xoilachuoimehien" 

@@ -19,7 +19,7 @@ export const Founder: React.FC = () => {
                    <div className="relative group overflow-hidden rounded-2xl shadow-lg transform transition-transform duration-500 hover:-translate-y-1">
                       <img 
                         src={APP_IMAGES.FOUNDER_GALLERY_1} 
-                        alt="Cô Hiền dạy nghề" 
+                        alt="Chị Hiền dạy nghề" 
                         className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-700"
                       />
                    </div>
@@ -44,7 +44,7 @@ export const Founder: React.FC = () => {
                    <div className="relative group overflow-hidden rounded-2xl shadow-lg transform transition-transform duration-500 hover:-translate-y-1">
                       <img 
                         src={APP_IMAGES.FOUNDER_GALLERY_4} 
-                        alt="Cô Hiền chủ quán" 
+                        alt="Chị Hiền chủ quán" 
                         className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-700"
                       />
                    </div>
@@ -69,7 +69,7 @@ export const Founder: React.FC = () => {
             </div>
 
             <h2 className="font-display font-black text-4xl md:text-5xl text-brand-dark mb-6 leading-tight">
-              Cô Lê Thị <br/> <span className="text-brand-green">Thu Hiền</span>
+              Chị <span className="text-brand-green">Hiền</span>
             </h2>
 
             <div className="relative mb-8">
@@ -81,10 +81,10 @@ export const Founder: React.FC = () => {
             
             <div className="space-y-4 text-gray-600 mb-8">
               <p>
-                Đó là lời dạy của Cô Hiền - người đã dành hơn một thập kỷ bên bếp lửa để gìn giữ hương vị <strong>xôi mặn ngon Bình Thạnh</strong> truyền thống.
+                Đó là lời dạy của Chị Hiền - người đã dành hơn một thập kỷ bên bếp lửa để gìn giữ hương vị <strong>xôi mặn ngon Bình Thạnh</strong> truyền thống.
               </p>
               <p>
-                Không chỉ bán xôi, Cô Hiền còn mở lớp <strong>dạy nghề nấu xôi Bình Thạnh</strong>, truyền đạt bí quyết nấu xôi dẻo, làm topping đậm đà cho những bạn trẻ muốn khởi nghiệp.
+                Không chỉ bán xôi, Chị Hiền còn mở lớp <strong>dạy nghề nấu xôi Bình Thạnh</strong>, truyền đạt bí quyết nấu xôi dẻo, làm topping đậm đà cho những bạn trẻ muốn khởi nghiệp.
               </p>
             </div>
 
@@ -96,7 +96,7 @@ export const Founder: React.FC = () => {
                <div>
                   <h4 className="font-bold text-brand-dark text-lg mb-1">Học nghề nấu xôi ở đâu?</h4>
                   <p className="text-sm text-gray-600 leading-relaxed">
-                    Liên hệ trực tiếp Cô Hiền để được tư vấn khóa <strong>học nghề nấu xôi Bình Thạnh</strong> 1 kèm 1. 
+                    Liên hệ trực tiếp Chị Hiền để được tư vấn khóa <strong>học nghề nấu xôi Bình Thạnh</strong> 1 kèm 1. 
                     <br/><span className="text-brand-green font-medium">Bao ra nghề - Hỗ trợ setup mở quán.</span>
                   </p>
                </div>
