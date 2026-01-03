@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowDown, Star } from 'lucide-react';
+import { ArrowDown, Star, MapPin, Leaf, ShieldCheck, Clock, Heart } from 'lucide-react';
 import { APP_IMAGES } from '../constants';
 
 const QUICK_FEEDBACKS = [
@@ -8,6 +8,29 @@ const QUICK_FEEDBACKS = [
   { text: "Giao hàng siêu nhanh, rất nhiệt tình", name: "Bạn Vy (Sinh viên Hutech)" },
   { text: "Gói lá chuối sạch sẽ, vị chuẩn bắc", name: "Cô Hạnh (Nội trợ)" },
   { text: "Ăn sáng mỗi ngày không ngán", name: "Anh Minh (IT)" }
+];
+
+const QUALITY_ITEMS = [
+  {
+    Icon: Leaf,
+    title: "100% Lá Chuối",
+    desc: "Gói trực tiếp bằng lá chuối tươi, an toàn & giữ nhiệt."
+  },
+  {
+    Icon: ShieldCheck,
+    title: "An Toàn Vệ Sinh",
+    desc: "Nguyên liệu tuyển chọn, quy trình chế biến sạch sẽ."
+  },
+  {
+    Icon: Clock,
+    title: "Nấu Mới Mỗi Ngày",
+    desc: "Chế biến mới vào mỗi sáng sớm, không bán hàng cũ."
+  },
+  {
+    Icon: Heart,
+    title: "Đậm Đà Tâm Huyết",
+    desc: "Gửi gắm hương vị truyền thống vào từng gói xôi."
+  }
 ];
 
 const MarqueeItem: React.FC<{ feedback: typeof QUICK_FEEDBACKS[0] }> = ({ feedback }) => (
@@ -31,7 +54,7 @@ export const Hero: React.FC = () => {
   };
 
   return (
-    <section id="home" className="relative min-h-screen pt-24 pb-12 flex items-center justify-center overflow-hidden">
+    <section id="home" className="relative min-h-screen pt-32 md:pt-44 pb-12 flex items-center justify-center overflow-hidden">
       {/* Background Decor */}
       <div className="absolute top-0 right-0 w-2/3 h-full bg-brand-light/30 rounded-l-[100px] -z-10 hidden md:block"></div>
       
@@ -39,17 +62,17 @@ export const Hero: React.FC = () => {
         <div className="flex flex-col md:flex-row items-center gap-12">
           
           <div className="md:w-1/2 space-y-6 text-center md:text-left">
-            <span className="inline-flex items-center gap-1.5 bg-brand-light text-brand-green px-4 py-1.5 rounded-full text-sm font-bold tracking-wide mb-2">
-              <Star size={14} fill="currentColor" />
-              Tiệm xôi đánh giá ngon ở Bình Thạnh
+            <span className="inline-flex items-center gap-1.5 bg-brand-light text-brand-green px-4 py-1.5 rounded-full text-sm font-bold tracking-wide mb-2 border border-brand-green/10">
+              <MapPin size={14} />
+              Địa chỉ xôi mặn ngon Bình Thạnh
             </span>
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-display font-black text-brand-dark leading-tight">
-              Hương Vị <br/>
-              <span className="text-brand-green">Xôi Lá Chuối</span> <br/>
-              Truyền Thống
+              Xôi Ngon <br/>
+              <span className="text-brand-green">Quận Bình Thạnh</span> <br/>
+              Gia Truyền
             </h1>
             <p className="text-lg text-gray-600 max-w-lg mx-auto md:mx-0 leading-relaxed">
-              Mỗi gói xôi là một ký ức tuổi thơ. Nếp dẻo thơm, topping đầy ắp, gói trong lá chuối xanh mướt giữ trọn hương vị.
+              Bạn đang tìm <strong>đặt xôi ở đâu</strong> ngon và sạch? Mẹ Hiền mang đến hương vị xôi mặn truyền thống, nếp dẻo thơm gói trong lá chuối xanh mướt.
             </p>
             
             <div className="flex flex-col gap-6">
@@ -103,11 +126,11 @@ export const Hero: React.FC = () => {
             </div>
           </div>
 
-          <div className="md:w-1/2 relative">
+          <div className="md:w-1/2 relative flex flex-col gap-8">
             <div className="relative z-10 transform hover:scale-105 transition-transform duration-500">
               <img 
                 src={APP_IMAGES.HERO_MAIN} 
-                alt="Xôi Mặn Mẹ Hiền" 
+                alt="Xôi mặn ngon nhất quận Bình Thạnh" 
                 className="w-full h-auto rounded-[2.5rem] shadow-2xl rotate-2 hover:rotate-0 transition-all duration-500 object-cover aspect-[4/3] bg-white"
               />
               {/* Float Badge */}
@@ -116,13 +139,29 @@ export const Hero: React.FC = () => {
                   <span className="text-2xl">🌟</span>
                 </div>
                 <div>
-                  <p className="text-xs text-gray-500 font-bold uppercase">Best Seller</p>
-                  <p className="font-bold text-brand-dark">Xôi Mặn Đặc Biệt</p>
+                  <p className="text-xs text-gray-500 font-bold uppercase">Xôi ngon</p>
+                  <p className="font-bold text-brand-dark">Đậm đà hương vị</p>
                 </div>
               </div>
             </div>
+
+            {/* Quality Section - Compact Grid Under Image */}
+            <div className="grid grid-cols-2 gap-3 pl-0 md:pl-4 mt-2">
+                {QUALITY_ITEMS.map((item, idx) => (
+                    <div key={idx} className="flex gap-3 items-start p-3 rounded-xl bg-white/60 backdrop-blur-md border border-white shadow-sm hover:shadow-md transition-all hover:bg-white group">
+                        <div className="text-brand-green bg-brand-light/50 p-2 rounded-lg group-hover:bg-brand-green group-hover:text-white transition-colors">
+                            <item.Icon size={16} />
+                        </div>
+                        <div>
+                            <h4 className="font-bold text-brand-dark text-sm leading-tight">{item.title}</h4>
+                            <p className="text-[10px] text-gray-500 leading-tight mt-1">{item.desc}</p>
+                        </div>
+                    </div>
+                ))}
+            </div>
+
             {/* Dots Pattern */}
-            <div className="absolute -top-10 -right-10 w-24 h-24 text-brand-accent/20">
+            <div className="absolute -top-10 -right-10 w-24 h-24 text-brand-accent/20 -z-10">
                <svg viewBox="0 0 100 100" fill="currentColor">
                  <pattern id="dots" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
                    <circle cx="2" cy="2" r="2" />

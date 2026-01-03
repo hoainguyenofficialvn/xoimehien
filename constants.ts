@@ -20,8 +20,14 @@ export const APP_IMAGES = {
   // Ảnh phần Câu Chuyện Bếp (3 ảnh ghép)
   STORY_1: "https://i.postimg.cc/4x07x3F3/449077038-446620724969875-1545784783804386017-n.jpg",
   STORY_2: "https://i.postimg.cc/qRFZJJJx/Chat-GPT-Image-Dec-31-2025-08-21-56-AM.png",
-  STORY_INGREDIENTS: "https://i.postimg.cc/9FfvYX1s/485118321_637843579180921_9066990913622514086_n.jpg", // Ảnh nguyên liệu/mâm xôi mới
+  STORY_INGREDIENTS: "https://i.postimg.cc/sD2t4fK8/596778220_853595944272349_7129156571478373252_n.jpg", // Ảnh nguyên liệu/mâm xôi mới
   
+  // Ảnh phần Người Truyền Nghề (Founder - 4 ảnh ghép)
+  FOUNDER_GALLERY_1: "https://i.postimg.cc/CxckX4SM/Xo_i_la_chuo_i_me_Hie_n_Nha_n_da_y_nghe.jpg",
+  FOUNDER_GALLERY_2: "https://i.postimg.cc/3xtmVZYR/Xo_i_la_chuo_i_me_Hie_n.jpg",
+  FOUNDER_GALLERY_3: "https://i.postimg.cc/rwfx39Mp/Xo_i_la_chuo_i_me_Hie_n_5.jpg",
+  FOUNDER_GALLERY_4: "https://i.postimg.cc/kXfyPCvH/484123879_635560466075899_4521739510773196245_n.jpg", // Ảnh dạy nghề
+
   // Ảnh phần Đặt số lượng lớn (trong Menu)
   BULK_ORDER_BIG: "https://i.postimg.cc/9FfvYX1s/485118321_637843579180921_9066990913622514086_n.jpg",
   
@@ -66,10 +72,10 @@ export const MENU_ITEMS: MenuItem[] = [
   },
   {
     id: '5',
-    name: 'Xôi Heo Cháy Tỏi',
+    name: 'Xôi Heo Mặn Heo Giòn',
     description: 'Thịt heo cháy tỏi thơm lừng, giòn giòn lạ miệng.',
     price: 25000,
-    image: 'https://i.postimg.cc/MHw220Wv/XOIHEOGION.jpg',
+    image: 'https://i.postimg.cc/NFtc1myG/z7391319603655-57dc6e777050cc24bcd50bb147136491.jpg',
   },
   {
     id: '6',

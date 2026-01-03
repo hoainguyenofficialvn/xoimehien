@@ -54,7 +54,7 @@ export const Story: React.FC = () => {
                Bắt đầu từ một gánh xôi nhỏ đầu ngõ từ năm 2012, Mẹ Hiền luôn tâm niệm: "Nấu cho khách cũng như nấu cho con cháu trong nhà".
              </p>
              <p className="text-gray-600 leading-relaxed mb-8">
-               Từng hạt nếp cái hoa vàng được ngâm đủ 8 tiếng, đồ hai lửa để giữ độ dẻo thơm suốt cả ngày. Thịt kho, pate, chả lụa đều được làm thủ công mỗi sáng sớm, đảm bảo vệ sinh và hương vị tươi mới nhất.
+               Từng hạt nếp được ngâm đủ 8 tiếng, đồ hai lửa để giữ độ dẻo thơm suốt cả ngày. Thịt kho, pate, chả lụa đều được làm thủ công mỗi sáng sớm, đảm bảo vệ sinh và hương vị tươi mới nhất.
              </p>
 
              <div className="grid grid-cols-3 gap-4 border-t border-gray-100 pt-8">

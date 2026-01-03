@@ -1,6 +1,6 @@
 import React from 'react';
 import { MENU_ITEMS, APP_IMAGES } from '../constants';
-import { Phone, ArrowRight, ShoppingBag, Star } from 'lucide-react';
+import { Phone, ArrowRight, ShoppingBag, Star, MapPin } from 'lucide-react';
 
 export const Menu: React.FC = () => {
   return (
@@ -14,7 +14,7 @@ export const Menu: React.FC = () => {
           <div className="w-24 h-1 bg-brand-accent mx-auto rounded-full mb-6"></div>
           <p className="text-gray-600 max-w-2xl mx-auto text-lg">
             Được nấu từ nếp cái nếp dẻo thơm, gói trong lá chuối tươi giữ nhiệt và hương thơm tự nhiên. 
-            <br className="hidden md:block" /> Mời bạn chọn món ngon cho bữa sáng nay!
+            <br className="hidden md:block" /> Mời bạn chọn <strong>xôi ngon</strong> cho bữa sáng nay!
           </p>
         </div>
 
@@ -77,13 +77,16 @@ export const Menu: React.FC = () => {
             <div className="relative z-10 flex flex-col md:flex-row items-center gap-10">
               <div className="md:w-1/2">
                 <div className="inline-block px-4 py-1.5 bg-white/10 backdrop-blur-md rounded-full text-brand-accent font-bold text-xs mb-6 border border-white/10">
-                  DỊCH VỤ ĐẶC XÔI CÔNG TY & SỰ KIỆN 
+                  <span className="flex items-center gap-2">
+                    <MapPin size={12} />
+                    ĐẶT XÔI Ở ĐÂU UY TÍN TẠI BÌNH THẠNH?
+                  </span>
                 </div>
                 <h3 className="font-display font-black text-3xl md:text-5xl mb-6 leading-tight">
-                  Cần đặt xôi số lượng lớn cho sự kiện,du lịch,công ty?
+                  Nhận đặt xôi số lượng lớn cho công ty & sự kiện
                 </h3>
                 <p className="text-gray-300 text-lg mb-8 leading-relaxed">
-                  Chúng tôi chuyên cung cấp xôi hộp, xôi gói lá chuối cho các dịp khai trương, sinh nhật,du lịch,từ thiện. Đóng gói chuyên nghiệp, giao hàng đúng giờ.
+                  Nếu bạn đang băn khoăn không biết <strong>đặt xôi ở đâu</strong> cho dịp khai trương, sinh nhật, du lịch hay từ thiện, Xôi Mẹ Hiền là lựa chọn tin cậy. Đóng gói chuyên nghiệp, xôi mặn ngon, giao hàng đúng giờ.
                 </p>
                 <a href="tel:0353857799" className="inline-flex items-center gap-3 bg-brand-accent text-brand-dark px-8 py-4 rounded-full font-bold text-lg hover:bg-white transition-all shadow-lg hover:shadow-brand-accent/50 transform hover:-translate-y-1">
                   <Phone size={20} />

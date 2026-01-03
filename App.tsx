@@ -4,7 +4,6 @@ import { Hero } from './components/Hero';
 import { Story } from './components/Story';
 import { Founder } from './components/Founder';
 import { Menu } from './components/Menu';
-import { Quality } from './components/Quality';
 import { Footer } from './components/Footer';
 import { ZaloWidget } from './components/ZaloWidget';
 import { ArrowUp } from 'lucide-react';
@@ -40,7 +39,6 @@ function App() {
       <Header />
       <main className="flex-grow">
         <Hero />
-        <Quality />
         <Story />
         <Menu />
         <Founder />
