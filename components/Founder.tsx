@@ -45,7 +45,7 @@ export const Founder: React.FC = () => {
                       <img 
                         src={APP_IMAGES.FOUNDER_GALLERY_4} 
                         alt="Chị Hiền chủ quán" 
-                        className="w-full h-48 object-cover group-hover:scale-110 transition-transform duration-700"
+                        className="w-full h-auto object-contain group-hover:scale-105 transition-transform duration-700"
                       />
                    </div>
                 </div>

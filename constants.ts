@@ -26,7 +26,7 @@ export const APP_IMAGES = {
   FOUNDER_GALLERY_1: "https://i.postimg.cc/CxckX4SM/Xo_i_la_chuo_i_me_Hie_n_Nha_n_da_y_nghe.jpg",
   FOUNDER_GALLERY_2: "https://i.postimg.cc/3xtmVZYR/Xo_i_la_chuo_i_me_Hie_n.jpg",
   FOUNDER_GALLERY_3: "https://i.postimg.cc/rwfx39Mp/Xo_i_la_chuo_i_me_Hie_n_5.jpg",
-  FOUNDER_GALLERY_4: "https://i.postimg.cc/kXfyPCvH/484123879_635560466075899_4521739510773196245_n.jpg", // Ảnh dạy nghề
+  FOUNDER_GALLERY_4: "https://i.postimg.cc/NjzGwFMT/8f0d437d-d8fa-4949-8500-44608d26d8f4.png", // Ảnh dạy nghề mới
 
   // Ảnh phần Đặt số lượng lớn (trong Menu)
   BULK_ORDER_BIG: "https://i.postimg.cc/9FfvYX1s/485118321_637843579180921_9066990913622514086_n.jpg",
