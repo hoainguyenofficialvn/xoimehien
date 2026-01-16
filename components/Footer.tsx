@@ -76,8 +76,8 @@ export const Footer: React.FC = () => {
                 <div className="space-y-2 text-sm">
                    <p><span className="text-white font-bold">CN1:</span> 215/77 Nguyễn Xí, P.13, Q. Bình Thạnh</p>
                    <p><span className="text-white font-bold">CN2:</span> 213 Nguyễn Xí, P.25, Q. Bình Thạnh</p>
-                   <p><span className="text-white font-bold">CN3:</span> 147 Nơ Trang Long, P.12, Q. Bình Thạnh</p>
-                   <p><span className="text-white font-bold">CN4:</span> 42 Đường D5, Q. Bình Thạnh</p>
+            
+                   <p><span className="text-white font-bold">CN3:</span> 29/2A Nguyễn Gia Trí, Q. Bình Thạnh</p>
                 </div>
               </li>
               <li className="flex items-center gap-3 text-gray-300">
